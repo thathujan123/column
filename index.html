@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Row & Column Increment</title>
+    <link rel="stylesheet" href="inline.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Table Generator</h1>        <div class="controls">
+            <div>
+                <label for="columns">Increase Columns:</label>
+                <button id="increase-column" style="background-color: #584edf93;">Increase Column</button>
+                <button id="decrease-column" style="background-color: #d4433093;">Decrease Column</button>
+                <span id="column-count">1</span> Column(s)
+            </div>            <div>
+                <label for="rows">Increase Rows:</label>
+                <button id="increase-row" style="background-color: #584edf93;" >Increase Row</button>
+                <button id="decrease-row" style="background-color:  #d4433093;">Decrease Row</button>
+                <span id="row-count">1</span> Row(s)
+            </div>
+        </div>        <table id="dynamic-table"></table>
+    </div>    <script src="java.js"></script>
+</body>
+</html>
